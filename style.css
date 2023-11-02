@@ -1,0 +1,85 @@
+.top {
+    background-color: #f1faee;
+}
+.hello {
+    font-family: Pacifico, sans-serif;
+    font-size: 75px;
+    color: #1d3557;
+}
+
+.profile-container{
+    height: 620px;
+}
+
+.Software-Engineer {
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+    color: #457b9d;
+}
+
+/* Add a media query to adjust positioning on smaller screens */
+@media (max-width: 768px) {
+  .Software-Engineer {
+      position: absolute;
+      /* bottom: 0; */
+      left: 0;
+      right: 0;
+      background-color: #f1faee; /* Match the background color of the .top section */
+      text-align: center;
+      padding: 15px; /*Add some padding to ensure text is legible */
+  }
+}
+
+.portrait{
+    border-radius: 50%;
+}
+
+.about-me {
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+    color: #457b9d;
+}
+
+.hobbies-h1 {
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+    color: #457b9d;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+
+  .features {
+    color: #1d3557;
+  }
+
+  .ul {
+    color: #457b9d;
+  }
+
+  .portfolio-container {
+    /* background-color: #f1faee; */
+  }
+
+  .lead {
+    color: #1d3557;
+  }
+
+  .hobbies {
+    color: #e63946;
+  }
+  
+  .hobbies-pic {
+    border-radius: 50%;
+  }
+
+  .hobby-disc{
+    color: #1d3557
+  }
+
+  .hobbies-section {
+    background-color: #f1faee;
+  }
